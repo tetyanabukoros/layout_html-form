@@ -20,25 +20,24 @@
       <fieldset class="fieldset">
         <legend>Personal information</legend>
 
-        <label class="label" for="surname"
-          required>
-        Surname:
+        <label class="label" for="surname">Surname:
           <input class="input"
             type="text"
             id="surname"
             name="surname"
             autocomplete="off"
+            required
           >
         </label>
 
         <label class="label" for="name"
-          autocomplete="off"
-          required> Name:
+          autocomplete="off"> Name:
           <input class="input"
-          type="text"
-          id="name"
-          name="name"
-        >
+            type="text"
+            id="name"
+            name="name"
+            required
+          >
         </label>
 
         <label  class="label" for="number">How old are You?
@@ -61,7 +60,7 @@
           >
         </label>
 
-        <label class="label" for="checkbox">I accept the term of the agreement:
+        <label class="label" for="checkbox">I accept the term of the agreement
           <input class="input"
             type="checkbox"
             id="checkbox"
@@ -81,7 +80,8 @@
             class="input"
             type="email"
             id="email"
-            name="email">
+            name="email"
+          >
         </label>
 
         <label class="label" for="password"
@@ -142,8 +142,8 @@
             <option value="audi">Audi</option>
             <option value="lada">Lada</option>
             <option value="-"
-            disabled
-            selected></option>
+              disabled selected>
+            </option>
           </select>
         </label>
 
